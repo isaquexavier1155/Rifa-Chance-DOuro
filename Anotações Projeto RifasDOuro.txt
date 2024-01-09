@@ -420,6 +420,20 @@ $pixKey = config('pix.key');
 
 	Senha app Site da minha conta google isaque.ixs@gmail.com: kfnc zqae ngcz jsub
 	
+///////////////////////////////////////////////////// Hospedagem gratuita do site
+ 
+	
+	1- cadastrar na hospedagem https://app.netlify.com/
+	rifachancedouro@gmail.com
+	snh: Ixs7179jjhjhjdhjhjhhghhjd@@@2024
+
+	Autorizei a netlife a usar todos meus repositórios do git hub isaqueixs
+	Adicionei projeto externo do github
+	Não adicionei nenhum parâmetro que pedia lá
+	e fui em Implatar
+
+	2 - Comprar dominio na GoDady para finalizar a implantação pelo Netlife
+
 
 
 
