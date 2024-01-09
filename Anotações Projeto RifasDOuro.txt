@@ -410,6 +410,7 @@ $pixKey = config('pix.key');
 	snh: khkhjdhjh455$$jbs@@kjkjkj2024
 	Entrei com conta do google
 
+/////////////////////////////////////////////
 	Provedor de hospedagem pode me passar as configurações de SMTP
 
 	Video utilizando PHPMailer com autenticação: https://www.youtube.com/watch?v=wWK8BvgDIEQ
