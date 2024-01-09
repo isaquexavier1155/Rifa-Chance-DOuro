@@ -417,21 +417,9 @@ $pixKey = config('pix.key');
 
 	Tem que usar um servidor online para rodar corretamente
 
-	Senha merchant.2023@gmail.com
-	Ixs71790297@merchantt
-
-	Google:
-	isaque.ixs@gmail.com
-	Ixs
-
 	Senha app Site da minha conta google isaque.ixs@gmail.com: kfnc zqae ngcz jsub
 	
-	
-	Tradutor de vídeos em várias linguas: https://labs.heygen.com/video-translate
-	Traduzi um vídeo de portugues para inglês usando inteligencia artificial.
-	Nem parece inteligência artificial
-	Movimentos da boca e voz ficam reais
-	Assinatura minima 24 dólares. Fica aproximadamente 120 reais 180 creditos
+
 
 
 
