@@ -433,10 +433,38 @@ $pixKey = config('pix.key');
 	e fui em Implatar
 
 	2 - Comprar dominio na GoDady para finalizar a implantação pelo Netlife
+		Conta goddady
+		isaque.ixs@gmail.com
+		user: isaqueixs
+		Ixs71790kdjkjkjkj757752024
+		
 
+	Pesquisa rifa digital
+	O seguinte site aparece em primeiro lugar: https://rifa.digital/
 
+//////////////////////////////////////////////////////////
 
+	Domínio escolhido: www.rifadouro.com.br na registrobr
 
+	Busca titular de domínio: https://registro.br/tecnologia/ferramentas/whois?search=www.qsconsultoriarh.com.br
+
+	Encontrie meu dominio na registro br e alterei servidores DNS respectivamente para:
+	
+	dns1.p06.nsone.net
+	dns2.p06.nsone.net
+	+DNS
+	dns3.p06.nsone.net
+	dns4.p06.nsone.net
+
+	Aconpanhar a propagação do DNS:
+
+	https://dnschecker.org/#A/www.rifadouro.com.br
+
+	Meu site foi hospedado em: https://app.netlify.com/sites
+	E o domínio esta no ResgistroBR: https://registro.br/painel/dominios/?dominio=rifadouro.com.br
+	Acesso registro br: user:  IXDSA1 e senha: Ixs71790297@
+	Deploy será realizado pelo GitHub.
+	Testar deploy depois que DNS for propagada
 
 
 

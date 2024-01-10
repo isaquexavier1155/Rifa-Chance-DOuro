@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "dashboard-minhas-rifas"
+status = 200
