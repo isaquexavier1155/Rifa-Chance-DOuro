@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "dashboard-minhas-rifas"
+to = "index.html"
 status = 200
