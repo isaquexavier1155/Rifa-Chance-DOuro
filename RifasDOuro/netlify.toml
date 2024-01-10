@@ -1,4 +1,8 @@
+[build]
+  base = "public"  # Indica que o diretório 'public' é o diretório base para a construção
+  publish = "public"  # Indica que o diretório 'public' é o diretório a ser publicado
+
 [[redirects]]
-from = "/*"
-to = "index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
