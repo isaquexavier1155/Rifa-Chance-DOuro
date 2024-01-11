@@ -465,11 +465,44 @@ $pixKey = config('pix.key');
 	Acesso registro br: user:  IXDSA1 e senha: Ixs71790297@
 	Deploy será realizado pelo GitHub.
 	Testar deploy depois que DNS for propagada
+	
+	Não deu certo a hospedagem na Netlify pois não suporta banco de dados mysql e PHP com Laravel
 
 
+////////////////////////////////////////////////////////conta hospedagem da Hostgator Plano M
 
+	Dados da conta criada:
 
+	isaque.ixs@gmail.com
+	snh: Ixsjhjhjhhgdhjf54#@bjbd2024
 
+*****************************************
 
+	Comprei hospedagem da Hostgator com desconto
+	Hospedagem Compartilhada
+	Plano M
 
+	R$ 167,73por 1 ano
+
+	Valor estimado de renovação R$ 419,33
+
+	Sites ilimitados, e-mail grátis - Titan, certificado SSL, Criador de Sites,
+	 cPanel, FTP ilimitado, instalador de WordPress (entre outras aplicações) e mais.
+
+	
+	E-mail personalizado grátis
+
+	Grátis no seu plano
+
+	Contas ilimitadas até 1GB cada
+
+	Pagamento no cartão em 3 vezes de R$ 57,87
+
+/////////////////////////////////////////////////// Passos executados na Hostgator
+
+	Criação do banco de dados chamado:  rifadourobd para subtituir hdceventscurso que foi criada localmente	
+
+	O projeto da QsConsultoriaRH está todo dentro da pasta web
+
+	A pasta public_html está vazia. Vou tentar adicionar a raiz do meu projeto ali
 
