@@ -475,6 +475,25 @@ $pixKey = config('pix.key');
 
 	isaque.ixs@gmail.com
 	snh: Ixsjhjhjhhgdhjf54#@bjbd2024
+	senha cpanel: ixs71790297
+
+////////////////////////////////////////////////////// Acesso ao CPANEL Hostgator
+
+	usr: rifad375
+	snh: ixs71790297
+	ip/host: 192.185.210.219
+
+*****************************************
+
+////////////////////////////////////////////////////// Acesso ao Admin banco dados Hostgator
+
+	usr: rifad375
+	snh: ixs7179029745454522024
+	Você criou com êxito um usuário do MySQL chamado “rifad375_rifad375”.
+
+///////////////////////////////////////////////// Dados que usei em .env
+	usuário : rifa375_rifad375
+	bd: rifad375_rifadourobd	
 
 *****************************************
 
@@ -505,4 +524,73 @@ $pixKey = config('pix.key');
 	O projeto da QsConsultoriaRH está todo dentro da pasta web
 
 	A pasta public_html está vazia. Vou tentar adicionar a raiz do meu projeto ali
+	
+	Criar admin e inserir no banco de dados
+	Vou receber uma senha e login
+
+//////////////////////////////////////////////////////////// Pedido de libereraçãp de terminal do Hostgator
+
+	SSH liberado, pode seguir esse guia para acessar:
+
+	https://suporte.hostgator.com.br/hc/pt-br/articles/115000390774-Como-acessar-o-SSH
+
+	Para instalar o Laravel:
+	https://suporte.hostgator.com.br/hc/pt-br/articles/115004145214
+
+////////////////////////////////////////////////// Consegui acessar SSH pelo cmd do windons, segue logs
+
+	C:\Users\isaqu>ssh rifad375@192.185.210.219 -p 2222
+	rifad375@192.185.210.219's password: digitei o senguinte ixs71790297
+	Last login: Thu Jan 11 05:48:07 2024
+	rifad375@rifadouro.com.br [~]#
+
+/////////////////////////////////////////////////
+
+	Adicionei o seguinte techo de codigo ao .htacess da raiz do servidor pasta public_html para não mostrar dados do Laravel na internet
+
+	<IfModule mod_rewrite.c> 
+	 RewriteEngine On 
+ 	RewriteRule ^(.*)$ public/$1 [L] 
+	</IfModule> 
+
+	obs tive que comentar esse site para conseguinr achar index.php
+	Adicionei abaixo desse o seguinte conteudo sugerido no vídeo, segue link do vídeo:
+	https://www.youtube.com/watch?v=bgIIvvvx-W4
+
+
+/////////////////////////////////////////////// Contas teste RifachancedOuro
+		
+	joao@gmail.com
+	teste12345
+
+	
+	Login: isaque.ixs@gmail.com
+	pass: 11551011
+
+///////////////////////////////////////////////////// TESTES
+
+	Vou tentar modificar arquivo da rota / que é o rifas/home.blade.php e ver se consigo refletir via GitHUb
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
