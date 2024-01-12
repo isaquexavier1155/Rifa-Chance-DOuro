@@ -606,6 +606,12 @@ $pixKey = config('pix.key');
 
 ///////////////////////////////////////////FAZER UPLOAD DE RIFAS ONLINE
 	
+	Fluxo: tenho duas pastas principais na hospedagem Hostgator: public_html e repositories
+	A pasta repositories tem um arquivo chamado .cpanel.yml que serve para atualizar o projeto  da pasta public_html ao excutar a clique nos botões
+	Quando é executado o clique nos botões o arquivo .cpanel.yml é executado e é deita uma copia do projeto que está em repositories para a pasta public_html.
+	Ao realizar alguma modificação no projeto no Vscode e executado comandos git é feito o deploy do sistema para uma fila no cpanel da hospedagem. 
+	E quando clico nos botões de update e deploy meu sistema é atualizado.
+	
 	1 - Executar comnados git para subir o projeto : (add, commit,push) no git bash here
 	2 - Ir em: https://br104.hostgator.com.br:2083/cpsess4538670843/frontend/jupiter/version_control/index.html#/manage/%252Fhome1%252Frifad375%252Frepositories%252FRifa-Chance-DOuro/deploy
 	
@@ -615,11 +621,13 @@ $pixKey = config('pix.key');
 	obs: Assim projeto se manterá igual ao projeto do repositório do github
 	não remover ou alterar arquivo .cpanel.yml que está dentro de repositories/Rifa-Chance-DOuro/.cpanel.yml na hospedagem
 	não remover pasta build que esta dentro de public na pasta public_htm/Rifa-Chance-DOuro/RifasDOuro/build
-	não remover ou alterar arquivo .env e .htacess, e .cpanel da raiz 
+	não remover ou alterar arquivo .env e .htacess, da raiz de public_html
 
 	repositório: https://github.com/isaquexavier1155/Rifa-Chance-DOuro
 
 /////////////////////////////////////////
+
+	
 
 
 
