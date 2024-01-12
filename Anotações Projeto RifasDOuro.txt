@@ -585,6 +585,27 @@ $pixKey = config('pix.key');
 
 	Vou tentar modificar arquivo da rota / que é o rifas/home.blade.php e ver se consigo refletir via GitHUb
 
+//////////////////////////////////////////////////// Porque github ignora o arquivo .env do Laravel?
+	PASTAS E ARQUIVOS QUE GIT NÃO SOBE PARA GIHUB
+	1 - .env -> Por medida de segurança pois ele contem dados sensiveis do banco de dados hospedado
+	2 - pastas: build e assets dentro de public (raiz do Laravel)
+
+
+//////////////////////////////////////////Implantação de push automático
+
+	https://br104.hostgator.com.br:2083/cpsess4538670843/frontend/jupiter/version_control/index.html#/manage/%252Fhome1%252Frifad375%252Fpublic_html%252FRifa-Chance-DOuro/deploy
+
+	documentação sobre: https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-deployment/
+
+	
+
+
+
+
+
+
+
+
 	
 
 
