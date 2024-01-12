@@ -1,4 +1,4 @@
-name: Deploy to cPanel
+name: Seu Fluxo de Trabalho
 
 on:
   push:
@@ -10,19 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Código
         uses: actions/checkout@v2
 
-      - name: Debug info
+      - name: Copiar .cpanel.yml para o Diretório Home
+        run: |
+          /bin/cp -R .cpanel.yml $HOME/.cpanel.yml
+        working-directory: ${{ github.workspace }}
+
+      - name: Debug Info
         run: |
           ls -l
           cat .cpanel.yml
+        working-directory: ${{ github.workspace }}
 
-      - name: Deploy to cPanel
+      - name: Realizar Deploy
         run: |
-          cp .cpanel.yml $HOME/.cpanel.yml
-          curl -s -k -o deploy.sh https://repo.cpanel.net/cpanelsync/DEPLOY
-          chmod +x deploy.sh
-          ./deploy.sh --force
+          export DEPLOYPATH=/home1/rifad375/public_html/Rifa-Chance-DOuro/
+          /bin/cp -R RifasDOuro $DEPLOYPATH
+        working-directory: ${{ github.workspace }}
 
 
