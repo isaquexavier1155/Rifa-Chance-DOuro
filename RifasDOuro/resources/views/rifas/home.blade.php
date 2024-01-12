@@ -17,7 +17,7 @@
     <!-- Conteudo Central -->
 
     <div id="event-create-container" class="col-md-6 offset-md-3">
-    <form action="/rifas" method="POST" enctype="multipart/form-data" id="form-act"> 
+    <form action="/rifas/create_rifa" method="POST" enctype="multipart/form-data" id="form-act"> 
         @csrf
         <input type="submit" class="btn btn-primary" value="Vamos lá">
     </form>
