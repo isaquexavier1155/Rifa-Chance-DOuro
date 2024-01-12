@@ -625,7 +625,7 @@ $pixKey = config('pix.key');
 
 	repositório: https://github.com/isaquexavier1155/Rifa-Chance-DOuro
 
-/////////////////////////////////////////
+///////////////////////////////////////// TESTES DE NAVEGAÇÃO NAS PÁGINAS
 
 	
 
