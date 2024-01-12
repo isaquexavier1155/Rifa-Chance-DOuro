@@ -35,7 +35,7 @@ class ContatoController extends Controller
                 //Server settings
                 $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
                 $mail->isSMTP();                                            //Send using SMTP
-                $mail->Host       = 'isaque.ixs@gmail.com';  //Trocar pelo host do email da minha hospedagem
+                $mail->Host       = 'sandbox646bb51341ad4ccc8eba92520022de95.mailgun.org';  //Trocar pelo host do email da minha hospedagem
                 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
                 $mail->Username   = 'isaque.ixs@gmail.com';                     //SMTP username
                 //$mail->Password   = 'Ixs71790297@tiktok'; //ou abaixo                            //SMTP password

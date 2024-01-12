@@ -636,15 +636,23 @@ $pixKey = config('pix.key');
 	Teste inicial na página : https://rifadouro.com.br/  -> rota= /home ou /
 
 	Sai do usuário e ao acessar Vamos lá pede para entrar novamente - ok
-	Só que falta uma opção de criar conta caso não tenha
-	Ajustar login.blade.php -> Adicionar link "Não possui uma conta? Criar conta"
+	Só que falta uma opção de criar conta caso não tenha - ok
+	Ajustar login.blade.php -> Adicionar link "Não possui uma conta? Criar conta" - ok
 
+	Ajustar "Esqueceu sua senha?" para funcionar
+	Ver se existe algum servidor de email na hospedagem 
 	
+//////////////////////////////////////////////////////////EMAIL COM LARAVEL
+	link servidor email: https://app.mailgun.com/app/account/setup
 
+	conta Mailgun
+	isaque.ixs@gmail.com
+	snh: 55445snjfbsjbhbf$$JFJHJHDdnjhjfg##@@2024
 
-
-
-
+	Nome dominio: sandbox646bb51341ad4ccc8eba92520022de95.mailgun.org
+	publickey: pubkey-1ec23865b7e500de3740500efbdb4ea6
+	signkey: 30863e6a5aa37182fa4636004169aa59
+	keycreate: 2a812f79cb26954b600b80941f96fe40-7ecaf6b5-f443dec5
 
 
 
