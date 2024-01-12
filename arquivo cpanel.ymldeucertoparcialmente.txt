@@ -1,4 +1,6 @@
 
+arquivo cpanel.yml
+
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/rifad375/public_html/Rifa-Chance-DOuro/
