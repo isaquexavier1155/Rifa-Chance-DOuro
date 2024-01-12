@@ -32,7 +32,7 @@
                 </label>
             </div>
 
-            <div class="flex items-center justify-end mt-4">
+            <div class="flex items-center justify-end mt-2"> {{-- Ajustei aqui para mt-2 --}}
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
                         {{ __('Esqueceu sua senha?') }}
@@ -40,9 +40,17 @@
                 @endif
 
                 <x-button class="ms-4">
-                    {{ __('Log in') }}
+                    {{ __('Entrar') }}
                 </x-button>
             </div>
         </form>
+        {{-- Move o link fora do formulário e aplica estilos correspondentes --}}
+        <div class="text-center mt-2"><br>
+            <a class="text-lg text-green-600 hover:text-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('register') }}">
+                {{ __('Ainda não tem uma conta?') }}
+            </a>
+        </div>
     </x-authentication-card>
+
+
 </x-guest-layout>

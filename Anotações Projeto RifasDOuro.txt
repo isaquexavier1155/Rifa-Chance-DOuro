@@ -587,7 +587,7 @@ $pixKey = config('pix.key');
 
 //////////////////////////////////////////////////// Porque github ignora o arquivo .env do Laravel?
 	PASTAS E ARQUIVOS QUE GIT NÃO SOBE PARA GIHUB
-	1 - .env -> Por medida de segurança pois ele contem dados sensiveis do banco de dados hospedado
+	1 -  .env -> Por medida de segurança pois ele contem dados sensiveis do banco de dados hospedado
 	2 - pastas: build e assets dentro de public (raiz do Laravel)
 
 
@@ -623,14 +623,21 @@ $pixKey = config('pix.key');
 	não remover pasta build que esta dentro de public na pasta public_htm/Rifa-Chance-DOuro/RifasDOuro/build
 	não remover ou alterar arquivo .env e .htacess, da raiz de public_html
 
+	Arquivo .env deve ser diferente no vs code e na hospedagem 
+	No vscode deve ter configurações locais e na hospedagem deve ter config do banco da hospedagem
+	Ao fazer deploy não sobe esse arquivo então não terá problemas
+	O arquivo .env e a pasta build devem ser adicionadas manualmente na hospedagem pois git ignora por segurnça esses arquivos
+
 	repositório: https://github.com/isaquexavier1155/Rifa-Chance-DOuro
 
 ///////////////////////////////////////// TESTES DE NAVEGAÇÃO NAS PÁGINAS
 
 	
+	Teste inicial na página : https://rifadouro.com.br/  -> rota= /home ou /
 
-
-
+	Sai do usuário e ao acessar Vamos lá pede para entrar novamente - ok
+	Só que falta uma opção de criar conta caso não tenha
+	Ajustar login.blade.php -> Adicionar link "Não possui uma conta? Criar conta"
 
 	
 
