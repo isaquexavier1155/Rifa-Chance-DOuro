@@ -600,10 +600,19 @@ $pixKey = config('pix.key');
 	O cpanel que é válido esta na mesma pasta que esta a pasta .git e .git.hub
 	Tenho que deixar ele configurado corretamente no vscode e github para fucionar na hospedagem
 	
+///////////////////////////////////////////FAZER UPLOAD DE RIFAS ONLINE
+	
+	1 - Executar comnados git para subir o projeto : (add, commit,push) no git bash here
+	2 - Ir em: https://br104.hostgator.com.br:2083/cpsess4538670843/frontend/jupiter/version_control/index.html#/manage/%252Fhome1%252Frifad375%252Frepositories%252FRifa-Chance-DOuro/deploy
+	
+	3 - Clicar na aba Pull or Deploy
+	4 - Clicar nos botões: Update... e Deploy respectivamente
+	
+	obs: Assim projeto se manterá igual ao projeto do repositório do github
 
+	repositório: https://github.com/isaquexavier1155/Rifa-Chance-DOuro
 
-
-
+/////////////////////////////////////////
 
 
 
