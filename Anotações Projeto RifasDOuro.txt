@@ -598,7 +598,7 @@ $pixKey = config('pix.key');
 	documentação sobre: https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-deployment/
 
 	O cpanel que é válido esta na mesma pasta que esta a pasta .git e .git.hub
-
+	Tenho que deixar ele configurado corretamente no vscode e github para fucionar na hospedagem
 	
 
 
