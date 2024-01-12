@@ -597,9 +597,13 @@ $pixKey = config('pix.key');
 
 	documentação sobre: https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-deployment/
 
-	O cpanel que é válido esta na mesma pasta que esta a pasta .git e .git.hub
+	O cpanel que é válido esta na mesma pasta que esta a pasta .git e .git.hub, 
+	dentro de repositories/Rifa-Chance-DOuro/.cpanel.yml
 	Tenho que deixar ele configurado corretamente no vscode e github para fucionar na hospedagem
 	
+	obs: Não consegui fazer comando de atualização funcionar automáticamente confome modificações no github
+
+
 ///////////////////////////////////////////FAZER UPLOAD DE RIFAS ONLINE
 	
 	1 - Executar comnados git para subir o projeto : (add, commit,push) no git bash here
@@ -609,6 +613,9 @@ $pixKey = config('pix.key');
 	4 - Clicar nos botões: Update... e Deploy respectivamente
 	
 	obs: Assim projeto se manterá igual ao projeto do repositório do github
+	não remover ou alterar arquivo .cpanel.yml que está dentro de repositories/Rifa-Chance-DOuro/.cpanel.yml na hospedagem
+	não remover pasta build que esta dentro de public na pasta public_htm/Rifa-Chance-DOuro/RifasDOuro/build
+	não remover ou alterar arquivo .env e .htacess, e .cpanel da raiz 
 
 	repositório: https://github.com/isaquexavier1155/Rifa-Chance-DOuro
 
