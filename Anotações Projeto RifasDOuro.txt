@@ -480,7 +480,7 @@ $pixKey = config('pix.key');
 ////////////////////////////////////////////////////// Acesso ao CPANEL Hostgator
 
 	usr: rifad375
-	snh: ixs71790297
+	snh: 
 	ip/host: 192.185.210.219
 
 *****************************************
@@ -492,8 +492,22 @@ $pixKey = config('pix.key');
 	Você criou com êxito um usuário do MySQL chamado “rifad375_rifad375”.
 
 ///////////////////////////////////////////////// Dados que usei em .env
-	usuário : rifa375_rifad375
-	bd: rifad375_rifadourobd	
+	
+	DB_DADABASE /bd: rifad375_rifadourobd
+	DB_USERNAME/usuário : rifa375_rifad375
+	DB_PASSWORD: ixs7179029745454522024
+
+	EXECUTAR composer update
+	php artisan key:generate
+	php artisan storage:link
+	php artisan migrate --seed
+	
+	Crie novo usuário bd
+	useradminbd
+	snha:  ixs7179029745454522024
+		
+
+	Esta dando erro de conexao com banco de dados my sql
 
 *****************************************
 
