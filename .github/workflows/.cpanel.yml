@@ -13,9 +13,12 @@ jobs:
       - name: Checkout Código
         uses: actions/checkout@v2
 
+      - name: Criar Diretório de Destino
+        run: mkdir -p /home1/rifad375/public_html/Rifa-Chance-DOuro
+        working-directory: ${{ github.workspace }}
+
       - name: Copiar .cpanel.yml para o Diretório Home
-        run: |
-          /bin/cp -R .cpanel.yml $HOME/.cpanel.yml
+        run: /bin/cp -R .cpanel.yml $HOME/.cpanel.yml
         working-directory: ${{ github.workspace }}
 
       - name: Debug Info
@@ -29,5 +32,6 @@ jobs:
           export DEPLOYPATH=/home1/rifad375/public_html/Rifa-Chance-DOuro/
           /bin/cp -R RifasDOuro $DEPLOYPATH
         working-directory: ${{ github.workspace }}
+
 
 
