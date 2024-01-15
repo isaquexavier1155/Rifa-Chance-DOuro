@@ -155,7 +155,7 @@ class CompradorController extends Controller
         echo '<pre>';
         print_r($response);
         echo '</pre>';
-        exit;
+        //exit;
         }
 
         // Salve o txId na sessão
@@ -177,7 +177,8 @@ class CompradorController extends Controller
             ->setUrl($response['location'])
             ->setUniquePayment(true);
 
-        dd($obPayload);
+        // dd($obPayload);
+
         //CÓDIGO DE PAGAMENTO PIX
         $payloadQrCode = $obPayload->getPayload();
         $obQrCode = new QrCode($payloadQrCode);
