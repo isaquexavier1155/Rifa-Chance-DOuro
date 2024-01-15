@@ -151,9 +151,9 @@ if ($responseArray === null && json_last_error() !== JSON_ERROR_NONE) {
   echo 'Erro ao decodificar a resposta JSON.';
 } else {
    //Exibe json com Token e mais algumas propriedades
-   echo '<pre>';
-   print_r($responseArray);
-   echo '</pre>';
+  //  echo '<pre>';
+  //  print_r($responseArray);
+  //  echo '</pre>';
 }
 
 /////////////////////////

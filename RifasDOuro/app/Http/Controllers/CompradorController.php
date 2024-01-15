@@ -187,6 +187,8 @@ class CompradorController extends Controller
         // Formatando a taxa de publicação para exibir milhares com separador de milhar e duas casas decimais
         $ValorSerPagoStringForm = number_format($ValorSerPagoString, 2, ',', '.');
 
+        dd($ValorSerPagoStringForm);
+
         return view('pix.payment_purchased_tickets', [
             'image' => base64_encode($image),
             'payloadQrCode' => $payloadQrCode,
