@@ -141,13 +141,15 @@ class CompradorController extends Controller
        
         // Antes da chamada da API
         error_log('Antes da chamada da API: ' . json_encode($request));
+
         // Chamada da API Pix usando o valor único
         $response = $obApiPix->createCob($this->valorUnico, $request);
 
-        dd($response);
-
         // Depois da chamada da API
         error_log('Depois da chamada da API: ' . json_encode($response));
+
+        // Adicione o seguinte para verificar se a variável $response é nula
+        dd($response);
 
         if (!isset($response['location'])) {
         error_log('Erro ao gerar Pix dinâmico: ' . json_encode($response));
