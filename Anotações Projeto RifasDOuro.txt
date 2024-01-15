@@ -682,7 +682,7 @@ $pixKey = config('pix.key');
 	Ajuste nos formulários de criação de campanha e de compra de bilhetes - ok
                     Ajustar página comprar-bilhetes para não permitir continuar sem ter escolhido nehum numero-ok
 
-
+	Ao finalisar compra em produção está ocorrendo erro no certificado cacert.pem
 
 
 
