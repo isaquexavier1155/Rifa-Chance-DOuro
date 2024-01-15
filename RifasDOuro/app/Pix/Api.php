@@ -58,6 +58,10 @@ class Api
         // Adicione este log para verificar a resposta da API após o envio
         error_log('Resposta da API ao criar cobrança: ' . json_encode($response));
 
+        echo '<pre>';
+        print_r($response);
+        echo '</pre>';
+        
         return $response;
     }
 
