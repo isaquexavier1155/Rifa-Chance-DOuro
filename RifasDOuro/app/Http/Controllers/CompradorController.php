@@ -161,9 +161,6 @@ class CompradorController extends Controller
         echo '<pre>';
         print_r($response);
         echo '</pre>';
-        echo '<pre>';
-        print_r($response['txid']);
-        echo '</pre>';
 
         // Salve o txId na sessão
         $txId = $response['txid'];
