@@ -105,10 +105,12 @@ class Api
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_CUSTOMREQUEST  => 'POST',
       CURLOPT_POSTFIELDS     => json_encode($request),
-      CURLOPT_SSLCERT        => $this->certificate,
+      // CURLOPT_SSLCERT        => $this->certificate,
+      CURLOPT_SSLCERT => base_path($this->certificate),
       CURLOPT_SSLCERTPASSWD  => '',
       // CURLOPT_CAINFO => 'C:\Users\isaqu\OneDrive\Documentos\Clone Git Hub Projeto Integração Api PIX com Atualização de Status\wdev-qrcode-pix-php\files\certificates\cacert.pem',
-      CURLOPT_CAINFO => 'storage/files/certificates/cacert.pem',
+      //CURLOPT_CAINFO => 'storage/files/certificates/cacert.pem',
+      CURLOPT_CAINFO => base_path('public_html/Rifa-Chance-DOuro/RifasDOuro/storage/files/certificates/cacert.pem'),
       CURLOPT_SSL_VERIFYPEER => true,
       CURLOPT_HTTPHEADER     => $headers
     ]);
@@ -181,10 +183,12 @@ if ($responseArray === null && json_last_error() !== JSON_ERROR_NONE) {
           CURLOPT_URL            => $endpoint,
           CURLOPT_RETURNTRANSFER => true,
           CURLOPT_CUSTOMREQUEST  => $method,
-          CURLOPT_SSLCERT        => $this->certificate,
+          // CURLOPT_SSLCERT        => $this->certificate,
+          CURLOPT_SSLCERT => base_path($this->certificate),
           CURLOPT_SSLCERTPASSWD  => '',
           // CURLOPT_CAINFO => 'C:\Users\isaqu\OneDrive\Documentos\Sistema de Rifas- em Andamento - Junção de Projeto Eventos com Integração PIX PHP\RifasDOuro\storage\files\certificates\cacert.pem',
-          CURLOPT_CAINFO => 'storage/files/certificates/cacert.pem',
+          //CURLOPT_CAINFO => 'storage/files/certificates/cacert.pem',
+          CURLOPT_CAINFO => base_path('public_html/Rifa-Chance-DOuro/RifasDOuro/storage/files/certificates/cacert.pem'),
           CURLOPT_SSL_VERIFYPEER => true,
           CURLOPT_HTTPHEADER     => $headers
       ]);
