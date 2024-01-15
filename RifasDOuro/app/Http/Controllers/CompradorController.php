@@ -138,7 +138,7 @@ class CompradorController extends Controller
         session(['valorUnico' => $this->valorUnico]);
 
         //dd($this->valorUnico);
-        dd($request);
+       
         // Antes da chamada da API
         error_log('Antes da chamada da API: ' . json_encode($request));
         // Chamada da API Pix usando o valor único
