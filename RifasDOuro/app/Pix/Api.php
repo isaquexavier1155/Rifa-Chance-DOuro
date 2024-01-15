@@ -108,6 +108,8 @@ class Api
       // CURLOPT_SSLCERT        => $this->certificate,
       //CURLOPT_SSLCERT => base_path($this->certificate),
       CURLOPT_SSLCERT => base_path('public_html/Rifa-Chance-DOuro/RifasDOuro/storage/files/certificates/certificadoproducao.pem'),
+      //CURLOPT_SSLCERT => '/home1/rifad375/public_html/Rifa-Chance-DOuro/RifasDOuro/storage/files/certificates/certificadoproducao.pem',
+      // CURLOPT_SSLCERT => base_path('public_html/Rifa-Chance-DOuro/RifasDOuro/storage/files/certificates/certificadoproducao.pem'),
       CURLOPT_SSLCERTPASSWD  => '',
       // CURLOPT_CAINFO => 'C:\Users\isaqu\OneDrive\Documentos\Clone Git Hub Projeto Integração Api PIX com Atualização de Status\wdev-qrcode-pix-php\files\certificates\cacert.pem',
       //CURLOPT_CAINFO => 'storage/files/certificates/cacert.pem',
