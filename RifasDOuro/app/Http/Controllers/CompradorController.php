@@ -144,6 +144,8 @@ class CompradorController extends Controller
         // Chamada da API Pix usando o valor único
         $response = $obApiPix->createCob($this->valorUnico, $request);
 
+        dd($response);
+
         // Depois da chamada da API
         error_log('Depois da chamada da API: ' . json_encode($response));
 
