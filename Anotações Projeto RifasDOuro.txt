@@ -480,7 +480,7 @@ $pixKey = config('pix.key');
 ////////////////////////////////////////////////////// Acesso ao CPANEL Hostgator
 
 	usr: rifad375
-	snh: 
+	snh: ixs71790297 ou Ixsjhjhjhhgdhjf54#@bjbd2024
 	ip/host: 192.185.210.219
 
 *****************************************

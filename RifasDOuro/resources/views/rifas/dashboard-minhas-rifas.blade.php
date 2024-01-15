@@ -59,7 +59,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p> <span id="exampleLink{{ $rifa->id }}">http://127.0.0.1:8000/comprar-bilhetes/{{ $rifa->id }}</span></p>
+                    <p> <span id="exampleLink{{ $rifa->id }}">https://rifadouro.com.br/comprar-bilhetes/{{ $rifa->id }}</span></p>
                     <button class="btn btn-primary" onclick="copyToClipboard('exampleLink{{ $rifa->id }}')">Copiar</button>
                 </div>
             </div>
