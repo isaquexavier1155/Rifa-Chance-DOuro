@@ -679,8 +679,21 @@ $pixKey = config('pix.key');
 ////////////////////////////////////////////TESTES DE NAVEGAÇÃO NAS PÁGINAS 2
 
 	Ajuste na página de geração de link de publicação - ok 
-	Ajuste nos formulários de criação de campanah e de compra de bilhetes
-	Ajustar página comprar-bilhetes para não permitir continuar sem ter escolhido nehum numero
+	Ajuste nos formulários de criação de campanha e de compra de bilhetes - ok
+                    Ajustar página comprar-bilhetes para não permitir continuar sem ter escolhido nehum numero-ok
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
