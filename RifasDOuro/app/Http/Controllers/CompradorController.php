@@ -158,6 +158,13 @@ class CompradorController extends Controller
         //exit;
         }
 
+        echo '<pre>';
+        print_r($response);
+        echo '</pre>';
+        echo '<pre>';
+        print_r($response['txid']);
+        echo '</pre>';
+
         // Salve o txId na sessão
         $txId = $response['txid'];
         session(['valorUnico' => $this->valorUnico, 'txId' => $txId]);
