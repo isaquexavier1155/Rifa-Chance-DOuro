@@ -61,7 +61,7 @@ class Api
         echo '<pre>';
         print_r($response);
         echo '</pre>';
-        
+
         return $response;
     }
 
@@ -192,7 +192,8 @@ if ($responseArray === null && json_last_error() !== JSON_ERROR_NONE) {
           CURLOPT_RETURNTRANSFER => true,
           CURLOPT_CUSTOMREQUEST  => $method,
           // CURLOPT_SSLCERT        => $this->certificate,
-          CURLOPT_SSLCERT => base_path($this->certificate),
+          //CURLOPT_SSLCERT => base_path($this->certificate),
+          CURLOPT_SSLCERT => '/home1/rifad375/public_html/Rifa-Chance-DOuro/RifasDOuro/storage/files/certificates/certificadoproducao.pem',
           CURLOPT_SSLCERTPASSWD  => '',
           // CURLOPT_CAINFO => 'C:\Users\isaqu\OneDrive\Documentos\Sistema de Rifas- em Andamento - Junção de Projeto Eventos com Integração PIX PHP\RifasDOuro\storage\files\certificates\cacert.pem',
           //CURLOPT_CAINFO => 'storage/files/certificates/cacert.pem',
