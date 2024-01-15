@@ -682,10 +682,12 @@ $pixKey = config('pix.key');
 	Ajuste nos formulários de criação de campanha e de compra de bilhetes - ok
                     Ajustar página comprar-bilhetes para não permitir continuar sem ter escolhido nehum numero-ok
 
-	Ao finalisar compra em produção está ocorrendo erro no certificado cacert.pem
+	Ao finalisar compra em produção está ocorrendo erro no certificado cacert.pem -ok
+	Agora está dando erro em produção ao ler qrcode para fazer pagamentos
 
 
-
+	Somente alterei caminho do certificado nos métodos send e getacesstoken e deu certo o pagamento dos bilhetes em desenvolvimento
+	O erro no pagamento em produção tem a ver com os certificados .pem
 
 
 

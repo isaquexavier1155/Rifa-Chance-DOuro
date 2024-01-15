@@ -132,6 +132,8 @@ class CompradorController extends Controller
         'solicitacaoPagador' => 'Pagamento do pedido 123'
         ];
 
+        // dd($request);
+
         // Gera um valor único e dinâmico com pelo menos 26 caracteres
         $this->valorUnico = $this->gerarValorUnico(26);
 
