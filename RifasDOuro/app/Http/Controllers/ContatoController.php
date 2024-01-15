@@ -3,17 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Mail; // Certifique-se de que esta linha está presente
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
-//require 'vendor/autoload.php';
-
-
 use App\Mail\ExemploEmail;
+use App\Mail\ContatoEmail;
+
+
+
 
 class ContatoController extends Controller
 {
@@ -34,8 +34,9 @@ class ContatoController extends Controller
             try {
                 //Server settings
                 $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-                $mail->isSMTP();                                            //Send using SMTP
-                $mail->Host       = 'sandbox646bb51341ad4ccc8eba92520022de95.mailgun.org';  //Trocar pelo host do email da minha hospedagem
+                $mail->isSMTP();
+                //Não posso inserir diretamente aqui pois dará erro de invasão na MailGun                                            //Send using SMTP
+                //$mail->Host       = 'sandbox646bb51341ad4ccc8eba92520022de95.mailgun.org';  //Trocar pelo host do email da minha hospedagem
                 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
                 $mail->Username   = 'isaque.ixs@gmail.com';                     //SMTP username
                 //$mail->Password   = 'Ixs71790297@tiktok'; //ou abaixo                            //SMTP password
@@ -82,7 +83,9 @@ class ContatoController extends Controller
                //email em texto limpo sem html, reduz chance de cair em span
                //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-                $mail->send();
+                //$mail->send();
+
+                Mail::to('isaque.ixs@gmail.com')->send(new ContatoEmail);
                 echo 'Email enviado com sucesso!';
             } catch (Exception $e) {
                 echo "Erro ao enviar o email: {$mail->ErrorInfo}";

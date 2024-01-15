@@ -650,19 +650,26 @@ $pixKey = config('pix.key');
 	snh: 55445snjfbsjbhbf$$JFJHJHDdnjhjfg##@@2024
 
 	Nome dominio: sandbox646bb51341ad4ccc8eba92520022de95.mailgun.org
-	publickey: pubkey-1ec23865b7e500de3740500efbdb4ea6
-	signkey: 30863e6a5aa37182fa4636004169aa59
-	keycreate: 2a812f79cb26954b600b80941f96fe40-7ecaf6b5-f443dec5
+	//publickey: pubkey-1ec23865b7e500de3740500efbdb4ea6
+	//signkey: 30863e6a5aa37182fa4636004169aa59
+	parciamelte certo: keycreate: 2a812f79cb26954b600b80941f96fe40-7ecaf6b5-f443dec5
 
 
 
+/////////////////////////////////////////////// NOVA CONTA
+	carol.rs97@gmail.com
+	YX:882PxVRNHADz
+	
+	composer require symfony/mailgun-mailer symfony/http-client
+
+	domain: sandbox6b0517f89b29477488dcc718e1ed6d2a.mailgun.org
+	publickey: pubkey-7c461ce2ed610831057cdf3be8e8df5d
+	createkey: 70c195749811646f117f69c5464136ae-7ecaf6b5-3407f32f
 
 
-
-
-
-
-
+	Alterei o DNS da registroBR para padrão RegistroBR 
+	Agora para desfazer essa alteração tenho que esperar a propagação do DNS
+	Alterar para apontar para Hostgator
 
 
 
