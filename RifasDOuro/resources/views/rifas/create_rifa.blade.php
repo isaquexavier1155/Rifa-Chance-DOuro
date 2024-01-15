@@ -11,7 +11,7 @@
         </div>
        
         <div class="centralized-content2">
-            <span>Crie sua rifa e atinja seus objetivos rapidamente!</span>
+            <span>Crie sua campanha e atinja seus objetivos rapidamente!</span>
         </div>
     </div>
     <!-- Conteudo Central -->
@@ -48,7 +48,7 @@
             @csrf
             <div class="form-group">
                 <label for="nome_campanha">Nome da campanha:</label> 
-                <input type="text" class="form-control" id="nome_campanha" name="nome_campanha" placeholder="Nome da campanha" value="Rifa de teste" required>
+                <input type="text" class="form-control" id="nome_campanha" name="nome_campanha" placeholder="Nome da campanha" required>
             </div>
             <div class="form-group">
                 <label for="imagem">Imagem (máximo 4MB)</label><br> 
@@ -57,7 +57,7 @@
             </div>
             <div class="form-group">
                 <label for="descricao">Descrição/Regulamento:</label> 
-                <textarea name="descricao" id="descricao" class="form-control" placeholder="Sorteio será realizado em live do Tik Tok; Sorteio será realizado dia 20/12" ></textarea>
+                <textarea name="descricao" id="descricao" class="form-control" placeholder="Sorteio será realizado em live do Tik Tok; Sorteio será realizado dia 20/12"></textarea>
                 <script>
                     CKEDITOR.replace('descricao', {
                         // Adicione outras configurações conforme necessário
@@ -68,7 +68,7 @@
             <div class="form-group">
                 <label for="quantidade_bilhetes">Quantidade de bilhetes</label> 
                 <select name="quantidade_bilhetes" id="quantidade_bilhetes" class="form-control" required>
-                    <!-- <option value="">Selecione uma opção</option>  -->
+                    <option value="">Selecione uma opção</option> 
                     <option value="20">20 bilhetes - (00 à 20)</option>
                     <option value="50">50 bilhetes - (00 à 50)</option>
                     <option value="100">100 bilhetes - (00 à 100)</option>
@@ -84,13 +84,13 @@
 
             <div class="form-group">
                 <label for="valor_bilhetes">Valor do Bilhete:</label>
-                <input type="text" class="form-control" id="valor_bilhetes" name="valor_bilhetes" placeholder="0,00" value="0,50" required>
+                <input type="text" class="form-control" id="valor_bilhetes" name="valor_bilhetes" placeholder="0,00"  required>
             </div>
 
             <div class="form-group">
                 <label for="local_sorteio">Onde será o sorteio?</label> 
                 <select name="local_sorteio" id="local_sorteio" class="form-control" required>
-                    <!-- <option value="">Selecione uma opção</option> -->
+                    <option value="">Selecione uma opção</option>
                     <option value="01">Loteria Federal</option>
                     <option value="02">Live no Youtube</option>
                     <option value="03">Live no Facebook</option>
@@ -102,7 +102,7 @@
             </div>
             <div class="form-group">
                 <label for="telefone">Telefone (com código postal):</label>
-                <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(11)11111-1111" value="(51)99772-6349" required>
+                <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(11)11111-1111" required>
             </div>
 
             <div id="arrecadacao-estimada-container" >

@@ -630,7 +630,7 @@ $pixKey = config('pix.key');
 
 	repositório: https://github.com/isaquexavier1155/Rifa-Chance-DOuro
 
-///////////////////////////////////////// TESTES DE NAVEGAÇÃO NAS PÁGINAS
+///////////////////////////////////////// TESTES DE NAVEGAÇÃO NAS PÁGINAS 1
 
 	
 	Teste inicial na página : https://rifadouro.com.br/  -> rota= /home ou /
@@ -657,6 +657,7 @@ $pixKey = config('pix.key');
 
 
 /////////////////////////////////////////////// NOVA CONTA
+
 	carol.rs97@gmail.com
 	YX:882PxVRNHADz
 	
@@ -671,8 +672,15 @@ $pixKey = config('pix.key');
 	Agora para desfazer essa alteração tenho que esperar a propagação do DNS
 	Alterar para apontar para Hostgator
 
+	Obs: Não foi possível utilizar o servidor da MailGun porque tinha que ser o plano pago, e era caro para o momento
 
+	
 
+////////////////////////////////////////////TESTES DE NAVEGAÇÃO NAS PÁGINAS 2
+
+	Ajuste na página de geração de link de publicação - ok 
+	Ajuste nos formulários de criação de campanah e de compra de bilhetes
+	Ajustar página comprar-bilhetes para não permitir continuar sem ter escolhido nehum numero
 
 
 

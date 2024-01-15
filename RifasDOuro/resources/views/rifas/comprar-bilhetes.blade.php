@@ -581,17 +581,24 @@ $('#tabela-bilhetes').on('click', '.numero-bilhete', function () {
         }
     });
 
-            // Adicione um evento de clique ao link
-            $('#btn-cont').on('click', function (event) {
-            // Evite o comportamento padrão do link para que o script possa executar antes da navegação
-            event.preventDefault();
+// Adicione um evento de clique ao link
+$('#btn-cont').on('click', function (event) {
+    // Evite o comportamento padrão do link para que o script possa executar antes da navegação
+    event.preventDefault();
 
-            // Obtém a URL da rota processar-bilhetes e adiciona os números selecionados
-            var urlProcessarCompraBilhetes = "{{ route('compradores.processar-compra-bilhetes') }}?numerosSelecionados=" + JSON.stringify(numerosSelecionados) + "&rifaId={{ $rifa->id }}";
+    // Verifica se há pelo menos um número selecionado
+    if (numerosSelecionados.length > 0) {
+        // Obtém a URL da rota processar-bilhetes e adiciona os números selecionados
+        var urlProcessarCompraBilhetes = "{{ route('compradores.processar-compra-bilhetes') }}?numerosSelecionados=" + JSON.stringify(numerosSelecionados) + "&rifaId={{ $rifa->id }}";
 
-            // Redireciona para a rota processar-bilhetes
-            window.location.href = urlProcessarCompraBilhetes;
-        });
+        // Redireciona para a rota processar-bilhetes
+        window.location.href = urlProcessarCompraBilhetes;
+    } else {
+        // Exibe uma mensagem de aviso se nenhum número foi selecionado
+        alert('Por favor, selecione pelo menos um número antes de continuar.');
+    }
+});
+
 });
 
 </script>
