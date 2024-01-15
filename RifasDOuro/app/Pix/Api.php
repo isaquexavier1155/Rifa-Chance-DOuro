@@ -132,9 +132,9 @@ if (curl_errno($curl)) {
 // Obter informações detalhadas sobre a requisição
 $info = curl_getinfo($curl);
 
-//  echo '<pre>';
-//  print_r($info);
-//  echo '</pre>';
+    echo '<pre>';
+    print_r($info);
+    echo '</pre>';
 ///////////////////////////
 
     curl_close($curl);
