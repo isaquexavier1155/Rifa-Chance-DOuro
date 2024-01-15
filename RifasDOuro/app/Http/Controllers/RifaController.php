@@ -398,17 +398,5 @@ class RifaController extends Controller
     return response()->json(['bilhetes' => $bilhetes]);
 }
     
-    
-    
-
-    
-    
-   // public function comprarBilhetes(Request $request)
-  //  {
-        // Lógica para processar a compra dos bilhetes
-        // Valide os dados do formulário, registre a compra no banco de dados, etc.
-
-    //    return redirect()->route('rifas.comprar.bilhetes')->with('success', 'Bilhetes comprados com sucesso!');
-    //}
 
 }

@@ -138,7 +138,7 @@ class CompradorController extends Controller
         session(['valorUnico' => $this->valorUnico]);
 
         //dd($this->valorUnico);
-
+        dd($request);
         // Antes da chamada da API
         error_log('Antes da chamada da API: ' . json_encode($request));
         // Chamada da API Pix usando o valor único
@@ -149,7 +149,7 @@ class CompradorController extends Controller
 
         if (!isset($response['location'])) {
         error_log('Erro ao gerar Pix dinâmico: ' . json_encode($response));
-        echo 'Problemas ao gerar Pix dinâmico';
+        echo '';
 
         //deixar esse para mostrar mensagem quando for cobrança duplicada
         echo '<pre>';
