@@ -10,6 +10,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Oswald:wght@200&family=Roboto" rel="stylesheet">
 
+        <!-- Meta Description - Descrição que aparece abaixo do link nas pesquisas do Google-->
+        <meta name="description" content="Começe agora sua rifa online. Crie sua rifa digital. Crie sua campanha de rifas agora e receba via pix.">
+    
+        <!-- Meta keywords - Palavras Chave -->
+        <meta name="keywords" content="João Automóveis de Parobé, João Automóveis, revenda João Automóveis, carros novos, carros usados, revenda de veículos, financiamento de carros, Parobé, loja João Automoveis, loja João automóveis Parobé">
+
+
         <!-- Links do Projeto Rifa -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-vzO5T3WM9V9HDr5Os93u9ZxEpSVL95rW8TlVc+3RqgpacJYYR38xGo/EItrD18+qlAEwEcU/J3pU2H27edWMAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
