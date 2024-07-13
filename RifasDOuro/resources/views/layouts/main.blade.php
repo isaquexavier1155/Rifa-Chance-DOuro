@@ -11,10 +11,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Oswald:wght@200&family=Roboto" rel="stylesheet">
 
         <!-- Meta Description - Descrição que aparece abaixo do link nas pesquisas do Google-->
-        <meta name="description" content="Começe agora sua rifa online. Crie sua rifa digital. Crie sua campanha de rifas agora e receba via pix.">
+        <meta name="description" content="Crie e gerencie sua campanha de rifas online de forma rápida e fácil. Aumente suas chances de ganhar com a rifa digital. Crie sua campanha de rifas agora e receba via pix.">
     
         <!-- Meta keywords - Palavras Chave -->
-        <meta name="keywords" content="João Automóveis de Parobé, João Automóveis, revenda João Automóveis, carros novos, carros usados, revenda de veículos, financiamento de carros, Parobé, loja João Automoveis, loja João automóveis Parobé">
+        <meta name="keywords" content="Rifa digital, rifa online, rifa douro, rifas digitais, rifas online, campanha de rifas">
 
 
         <!-- Links do Projeto Rifa -->
