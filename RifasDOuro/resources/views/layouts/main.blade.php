@@ -50,7 +50,7 @@
             
                 <ul>
                     <div id="menu-title">
-                        Rifa Chance D'ouroo
+                        Rifas D'ouro
                         <div id="menu-icon">
                         <ion-icon name="podium-outline"></ion-icon>
                         </div>
