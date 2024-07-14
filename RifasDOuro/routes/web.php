@@ -14,6 +14,11 @@ use App\Http\Controllers\ContatoController;
 
 //CRIE ESSAs ROTAs HOJE
 Route::get('/home', [RifaController::class, 'home']);
+
+//Route::get('/rifas/rifadigital', [RifaController::class, 'rifadigital']);
+Route::get('/rifadigital', [RifaController::class, 'rifadigital']);
+
+
 Route::get('/rifas/create_rifa', [RifaController::class, 'create'])->middleware('auth');
 Route::get('/', [RifaController::class, 'index']);
 

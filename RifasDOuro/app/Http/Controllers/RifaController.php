@@ -36,6 +36,12 @@ class RifaController extends Controller
         return view('rifas.home');
     }
 
+    public function rifadigital()
+    {
+        return view('rifas.rifa-digital');
+    }
+    
+
     public function create()
     {
          // Obtém o usuário autenticado
