@@ -15,8 +15,8 @@ use App\Http\Controllers\ContatoController;
 //CRIE ESSAs ROTAs HOJE
 Route::get('/home', [RifaController::class, 'home']);
 
-//Route::get('/rifas/rifadigital', [RifaController::class, 'rifadigital']);
-Route::get('/rifadigital', [RifaController::class, 'rifadigital']);
+//Rota do artigo para melhorar SEO de pesquisas rifa digital;
+Route::get('/rifa-digital', [RifaController::class, 'rifa_digital']);
 
 
 Route::get('/rifas/create_rifa', [RifaController::class, 'create'])->middleware('auth');

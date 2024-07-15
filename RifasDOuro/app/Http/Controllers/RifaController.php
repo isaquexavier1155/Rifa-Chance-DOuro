@@ -36,7 +36,7 @@ class RifaController extends Controller
         return view('rifas.home');
     }
 
-    public function rifadigital()
+    public function rifa_digital()
     {
         return view('rifas.rifa-digital');
     }
